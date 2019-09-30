@@ -9,7 +9,7 @@ body {
     line-height: 32px;
     /* font-family: sans-serif; Ubuntu, sans-serif; */
     color: #000; /* #xxxxxx */;
-    font-family: 'Mansalva', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -30,7 +30,7 @@ header, main, footer {
 }
 header, footer, footer a {
     text-align: center;
-    background-color: darkblue; /* */;
+    background-color: rgb(74, 74, 97); /* */;
     color: whitesmoke;
     /* Comment */
 }
