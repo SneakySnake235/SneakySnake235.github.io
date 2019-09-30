@@ -35,16 +35,9 @@ header, footer, footer a {
     /* Comment */
 }
 
-header img {
-    width: 300px; /*  */;
-    height: auto;
-    float: right;
-}
-
 img {
-    width: 300px;
-    height: auto;
-    float: right;
+max-width: 300px;
+float: right;
 }
 
 footer {
