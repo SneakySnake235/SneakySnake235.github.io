@@ -36,8 +36,9 @@ header, footer, footer a {
 }
 
 img {
-max-width: 100px;
+max-width: 300px;
 float: right;
+margin: 10px;
 }
 
 footer {
