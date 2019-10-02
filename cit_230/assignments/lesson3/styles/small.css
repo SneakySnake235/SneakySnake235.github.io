@@ -1,0 +1,37 @@
+body{
+    
+
+
+}
+
+
+
+
+li{
+    float: left;
+    /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    T B L R
+    margin: 0 10px 10px 10px;
+*/
+    margin: 10px;
+    list-style: none;
+    padding-left: 0;
+   
+    }    
+    
+    li a {
+
+
+    }
+
+    .highlight {
+        font-weight: bold;
+    }
+
+    #active{
+        background-color: blueviolet;
+    }
