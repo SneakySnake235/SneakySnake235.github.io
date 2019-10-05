@@ -24,8 +24,16 @@ li{
     }    
     
     li a {
+        text-decoration: none;
 
+    }
 
+    ul {
+        border: 1px solid #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
     }
 
     .highlight {
