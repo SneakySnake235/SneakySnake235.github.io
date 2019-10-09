@@ -1,6 +1,9 @@
 body{
     
-
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -42,4 +45,9 @@ li{
 
     #active{
         background-color: blueviolet;
+    }
+
+    .TextBox1{
+        grid-auto-columns: auto;
+
     }
