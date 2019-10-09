@@ -48,6 +48,26 @@ li{
     }
 
     .TextBox1{
-        grid-auto-columns: auto;
+        max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin: 20px auto;
+  margin-bottom: 20px auto;
+
+    }
+    .TextBox2{
+        max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin: 20px auto;
+  margin-bottom: 20px auto;
+
+    }
+    .TextBox3{
+        max-width: 960px;
+  margin: 0 auto;
+  line-height: 1.5;
+  margin: 20px auto;
+  margin-bottom: 20px auto;
 
     }
