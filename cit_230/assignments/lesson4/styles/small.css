@@ -51,10 +51,10 @@ li{
       
       header {
         background-color:blueviolet;
-        padding: auto ;
-        display: auto;
-        align-items:auto;
-        justify-content:auto;
+        padding: auto center ;
+        display: auto center;
+        align-items:auto center ;
+        justify-content:auto center;
         
         }
         main {
