@@ -46,7 +46,7 @@ li{
     }
 
     img {
-        max-width: 100%;
+        max-width: auto;
       }
       
       header {
@@ -66,4 +66,12 @@ li{
             max-width: auto;
             margin: auto;
             padding: auto;
+          }
+
+          icon img {
+            width: 100%;
+           display: grid;
+            grid-template-columns: 1fr 1fr;
+           grid-column: 1 / -1;
+            grid-row: 1;
           }
