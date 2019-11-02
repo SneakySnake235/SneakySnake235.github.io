@@ -1,77 +1,177 @@
-body{
-    
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+#content{
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Papyrus,fantasy;
+    background-color:rgb(170, 213, 248);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+    text-align: center;
+	  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 2em;
+    padding: 10px;
+    line-height: 1em;
+  }
+  
+  p{
+    padding: 10px;
+    font-size: 23px;
+    line-height: 1.3em;
+    color: lightgoldenrodyellow;
+  }
+   .leftcol, .rightcol{
+    max-width:48%;
+    flex: 1 0 15em;
+    margin: .5em;
+  }
+  #change{
+      font-style: italic;
+      text-align: left;
+  }
 
+.grid-item {
+    background-color: rgb(50, 0, 70);
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
 }
-
-
-
-
-li{
-    float: left;
-    /*
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    T B L R
-    margin: 0 10px 10px 10px;
-*/
-    margin: 10px;
+  nav{
+    background-color: rgb(50, 0, 70);
+    padding: 1em;
+    margin-top: -120px;
+    padding-left: 175px;
+  }
+  nav li{
+    font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;  
+    font-size: 1.5em;
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul{
+    margin:0;
+  }
+  nav a{
+    padding: 1em .2em;
+    line-height: 3em;
+    color: white;
+    text-decoration: none;
+  }
+  nav a:hover{
+    color: black;
+    box-shadow: 0px 6px 5px rgb(191, 225,252);
+    text-decoration: none;
+  }
+  .list li{
+    list-style: none;
+    display: block;
+    flex: 1 1 100%;
+    display: none;
+  }
+  .list {
+    font-size: 1.2em;
+    line-height: 40px;
+    display: flexbox;
+    padding: 0;
+  }
+  .list li:first-child {
+    display: block;
+  }
+  ul{
+    display: flex;
     list-style: none;
     padding-left: 0;
-   
-    }    
-    
-    li a {
-        text-decoration: none;
-
-    }
-
-    ul {
-        border: 1px solid #000;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        
-    }
-
-    .highlight {
-        font-weight: bold;
-    }
-
-    #active{
-        background-color: blueviolet;
-    }
-
-    .TextBox1{
-        max-width: 960px;
-  margin: 0 auto;
-  line-height: 1.5;
-  margin: 20px auto;
-  margin-bottom: 20px auto;
-
-    }
-    .TextBox2{
-        max-width: 960px;
-  margin: 0 auto;
-  line-height: 1.5;
-  margin: 20px auto;
-  margin-bottom: 20px auto;
-
-    }
-    .TextBox3{
-        max-width: 960px;
-  margin: 0 auto;
-  line-height: 1.5;
-  margin: 20px auto;
-  margin-bottom: 20px auto;
-
-    }
-    img {
-        max-width: 100%;
-      }
-      
+    justify-content: space-around;
+  }
+  .list a:hover {
+    background-color: blanchedalmond;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .responsive li{
+    display: none;
+  }
+  #Frow, #Frow-Left, footer{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #Frow-Left {
+    background-color: rgb(1, 58, 58);
+    color: #436d70;
+  }
+  
+  #Last{
+    text-align: center;
+  }
+  .pspec{
+    font-size: 22px;
+    font-style: italic;
+    color: lightgoldenrodyellow;
+  }
+  footer{
+    background-color: rgb(86, 99,109);
+    color: rgb(86, 99, 109);
+  }
+  img{
+    max-width: 100%;
+  }
+  #Pf{
+    width: 100%;
+  }
+  #logo {
+    padding-left: .5em;
+    position:relative;
+    background-color: rgb(171, 209, 230);
+    border: grey 1px solid;
+    border-radius: 15px;
+    width: 165px;
+    box-shadow: 5px 5px 5px rgb(191, 225,252);
+  }
+  #banner {
+    width: 100%;
+  }
+  
+.Bpic {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("SeoulSKY.jpg");
+  height: 155px;
+  background-position: center;
+}
+  #img1, #img2{
+    width: 450ox;
+    box-shadow: 8px 8px 8px rgb(191, 225,252);
+    border-radius: 15px;
+  }
+  #info {
+    color: #495d60;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .socialmedia {
+    box-shadow: 6px 6px 6px rgb(191, 225,252);
+    padding: 25px;
+    float:right;
+  }
+  .zoomin img{
+    width: 45px;
+    height:45px;
+    -webkit-trnsition: all 2s ease;
+    -moz-trnasition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+  }
+  .zoomin img:hover{
+    width:80px;
+    height: 80px;
+    box-shadow: 8px 8px 8px rgb(191, 225,252);
+  }
+  script {
+    font-size: x-small;
+  }
