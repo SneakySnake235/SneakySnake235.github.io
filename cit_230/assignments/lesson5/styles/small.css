@@ -31,6 +31,10 @@ table, th, td {
 }
 
 /* class selectors */
+.hidden {
+    display: none;
+}
+
 .navigation {
     list-style: none;
     text-align: center;
@@ -71,3 +75,4 @@ table, th, td {
 #map {
     display: none;
 }
+
