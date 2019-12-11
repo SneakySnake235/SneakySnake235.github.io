@@ -1,0 +1,134 @@
+@media only screen and (min-width: 60em) {
+
+    @import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap');
+
+    /*---------- BODY   ---------- */
+
+    /*---------- HEADER   ---------- */
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Source Sans Pro', 'sans-serif';
+    }
+    
+    #headerLogo {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .motto {
+        font-size: 50px;
+        font-family: 'Lora, 'serif';
+    }
+    
+    /*---------- NAV  ---------- */
+
+    /*---------- MAIN  ---------- */
+
+    /* HERO IMAGE-HERO IMAGE-HERO IMAGE-HERO IMAGE-HERO IMAGE */
+
+    #preston {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        font-family: 'Source Sans Pro', 'sans-serif';
+    }
+
+    .hero-image {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .herodiv {
+        position: relative;
+    }
+
+    .stats {
+        font-family: 'Source Sans Pro', 'sans-serif';
+        position: absolute;
+        top: 550px;
+        left: 680px;
+        background: black;
+        color: white;
+        border: 1px solid #000;
+        padding: 20px;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+        font-size: 20px;
+    }
+
+    /* ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT */
+
+    h2 {
+        font-family: 'Lora', 'serif';
+        text-align: center;
+    }
+
+    .about {
+        /* padding: 25px;
+    border: 1px solid black; */
+        margin: 50px;
+        font-family: 'Source Sans Pro', 'sans-serif';
+        background: #558C63;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutcontent {
+        display: flex;
+        flex-direction: row;
+        /* Make column on small*/
+        padding: 50px;
+        font-size: 20px;
+    }
+
+    a.wikipedia:visited {
+        color: white;
+    }
+
+    .rural {
+        width: 40%;
+    }
+
+    /* CONTACT INFORMATION-CONTACT INFORMATION-CONTACT INFORMATION */
+
+    .contactinfo {
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        margin: 50px;
+        font-family: 'Source Sans Pro', 'sans-serif';
+        background: #49726E;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /*---------- SECTIONS   ---------- */
+
+    /*---------- ARTICLES   ---------- */
+
+    /*---------- FOOTER  ---------- */
+
+    /*---------- ETC  ---------- */
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figure:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+    figcaption {
+        font-family: 'Lora', 'Serif';
+        font-size: 18px;
+    }
+
+}
