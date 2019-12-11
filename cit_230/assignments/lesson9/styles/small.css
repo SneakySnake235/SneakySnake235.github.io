@@ -1,0 +1,206 @@
+/*---------- BODY   ---------- */
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap');
+
+/*---------- HEADER   ---------- */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+#headerLogo {
+    width: 20px;
+    padding: 5px;
+}
+
+.motto {
+    font-size: 20px;
+    font-family: 'Lora, 'serif';
+}
+
+/*---------- NAV  ---------- */
+/*
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'Lora', 'serif';
+    background: #2A4359;
+    text-align: center;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+a.menuLinks:visited {
+    color: white;
+}    */
+
+/*---------- MAIN  ---------- */
+
+/* HERO IMAGE-HERO IMAGE-HERO IMAGE-HERO IMAGE-HERO IMAGE */
+
+
+
+/* FIVE DAY FORECAST-FIVE DAY FORECAST-FIVE DAY FORECAST- */
+
+
+/* ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT-ABOUT */
+
+
+
+/* CONTACT INFORMATION-CONTACT INFORMATION-CONTACT INFORMATION */
+
+
+
+/*---------- SECTIONS   ---------- */
+
+
+/*---------- ARTICLES   ---------- */
+
+/*---------- FOOTER  ---------- */
+
+footer {
+    background: #2A4359;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    padding: 10px;
+}
+
+/*---------- ETC  ---------- */
+
+nav {
+    margin: 0 auto;
+    background-color: #2A4359;
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: white;
+    }
+}
+
+/* ID Selectors*/
+
+
+
+/* WEEK 8 */
+
+
+
+.grid {
+    display: grid;
+    grid-column: 1fr;
+}
+
+form {
+    max-width: 500px;
+margin: 0 auto;
+}
+
+label {
+    display: inline-block;
+    min-width: 120px;
+}
+
+form div {
+margin-top: 2px;
+padding: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'sans-serif';
+}
+
+.thanks {
+    font-size: 50px;
+    text-align: center;
+}
+
+.resetbutton {
+    background-color: #990000;
+    color: white;
+}
+
+.homeimages {
+    width: 75%;
+}
+
+.homeinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 55px;
+}
+
+article {
+    justify-content: center;
+}
