@@ -1,0 +1,51 @@
+@media only screen and (min-width: 32.5 em) {
+
+    body {
+        display: grid;
+        justify-items: center;
+    }
+  h1 {
+    font-size: 2.4rem /* x.xrem  (rem is a unit of measure) */;
+    color: rgb(255, 0, 0); /* #xxxxxx */;
+    
+  }
+ 
+    img{
+        max-width: 400px;
+            width: 80%;
+    }
+    
+  p {
+    margin: 0;
+  }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+}
+@media screen and (min-width: 900px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 45px;
+    }
+ @media screen and (min-width: 550px) {
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 45px;
+        }
+        img {
+            max-width: 400px;
+            width: 80%;
+        }
+}
+}
+}
