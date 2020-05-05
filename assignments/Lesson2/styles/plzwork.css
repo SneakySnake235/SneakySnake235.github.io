@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Raleway:wght@400;500;700&display=swap'); */
+
+body {
+    display: grid;
+    justify-items: center;
+}
+
+#content {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    font-family: 'Nunito', sans-serif;
+
+    color: white
+}
+
+h1 {
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.top-div p,
+.top-div a {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+a {
+    color: #006622;
+}
+
+header,
+footer {
+    text-align: center;
+    text-size-adjust: auto;
+    background-color: #017213;
+    padding: 10px;
+    color: (black);
+}
+
+header a,
+footer a {
+    color: black;
+}
+
+.site-div img {
+    width: 100%;
+}
+
+.content-box {
+    /* width: 460px; */
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0px 5px 30px -10px black;
+
+}
+
+.content-box h3 {
+    background-color: #086600;
+    padding: 20px 15px;
+    margin: 0;
+    border-radius: 15px 15px 0 0;
+}
+
+.site-div {
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.description p {
+    padding: 10px 20px;
+    font-size: 1.2em
+}
+
+.description {
+
+    padding: 10px 0;
+}
+
+.top-div {
+
+    padding: 10px 15px;
+    margin: 0;
+}
+
+#sections-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+
+/*medium*/
+@media only screen and (min-width:45em) {
+    #sections-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
+
+}
+
+/*large*/
+@media only screen and (min-width:70em) {
+    #sections-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
