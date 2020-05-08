@@ -1,0 +1,86 @@
+.content{
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Papyrus,fantasy;
+    background-color:rgb(170, 213, 248);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+    font-size: 2em;
+    padding: 10px;
+    line-height: 1em;
+  }
+
+  p{
+    padding: 10px;
+    font-size: 23px;
+    line-height: 1.3em;
+    color: rgb(0, 0, 0);
+  }
+   .leftcol, .rightcol{
+    max-width:48%;
+    flex: 1 0 15em;
+    margin: .5em;
+  }
+  
+.grid-item {
+    background-color: #56636d;
+    border: 1px solid rgb(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+  #nav{
+    background-color: #56636d;
+    padding: 1em;
+    margin-top: 20px;
+    padding-left: 175px;
+  }
+  
+  ul{
+    display: flex;
+    list-style: none;
+    padding-left: 50;
+    justify-content: space-around;
+  }
+ 
+  footer{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer{
+    background-color: #56636d;
+    color: rgb(86, 99, 109);
+  }
+
+.logo {
+    padding-left: .5em;
+    position:relative;
+    background-color: rgb(171, 209, 230);
+    border: grey 1px solid;
+    border-radius: 15px;
+    width: 165px;
+    box-shadow: 5px 5px 5px rgb(191, 225,252);
+  }
+  
+.banner {
+    width: 50%;
+  }
+#textbody {
+    text-align: center;
+    font-size: 9px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 25%;
+    padding: 25px;
+}

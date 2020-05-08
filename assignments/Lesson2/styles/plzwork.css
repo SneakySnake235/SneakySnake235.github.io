@@ -43,7 +43,7 @@ header,
 footer {
     text-align: center;
     text-size-adjust: auto;
-    background-color: #017213;
+    background-color: #56636d;
     padding: 10px;
     color: (black);
 }
@@ -72,7 +72,7 @@ footer a {
 }
 
 .content-box h3 {
-    background-color: #086600;
+    background-color: #56636d;
     padding: 20px 15px;
     margin: 0;
     border-radius: 15px 15px 0 0;
