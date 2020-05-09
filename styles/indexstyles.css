@@ -46,7 +46,7 @@ header, footer {
 }
 header, footer, footer a {
     text-align: center;
-    background-color: rgb(74, 74, 97); /* */;
+    background-color: #4a4a61; /* */;
     color: whitesmoke;
     /* Comment */
 }

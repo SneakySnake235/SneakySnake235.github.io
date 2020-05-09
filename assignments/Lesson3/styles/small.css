@@ -7,7 +7,8 @@
   h1, h2, h3, h4, h5, h6 {
     color: rgb(0, 0, 0);
     text-align: center;
-	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  
+  font-family: 'Nunito', sans-serif;
     font-size: 2em;
     padding: 10px;
     line-height: 1em;
@@ -19,6 +20,7 @@
     line-height: 1.3em;
     color: rgb(0, 0, 0);
   }
+
    .leftcol, .rightcol{
     max-width:48%;
     flex: 1 0 15em;
@@ -26,8 +28,8 @@
   }
   
 .grid-item {
-    background-color: #56636d;
-    border: 1px solid rgb(0, 0, 0, 0.8);
+    background-color: #4a4a61;
+    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 15px;
     text-align: center;
@@ -37,8 +39,9 @@
     flex-direction: row;
     padding: 10px;
 }
+
   #nav{
-    background-color: #56636d;
+    background-color: #4a4a61;
     padding: 1em;
     margin-top: 20px;
     padding-left: 175px;
@@ -59,18 +62,25 @@
   }
 
   footer{
-    background-color: #56636d;
+    background-color: #4a4a61;
     color: rgb(86, 99, 109);
   }
 
 .logo {
     padding-left: .5em;
     position:relative;
-    background-color: rgb(171, 209, 230);
+    background-color: #4a4a61;
     border: grey 1px solid;
+
+    /* curb */
     border-radius: 15px;
-    width: 165px;
+    width: auto;
     box-shadow: 5px 5px 5px rgb(191, 225,252);
+    width: 80%;
+    padding: 1px 0;
+    margin: 0 auto;
+    /* img center */
+    text-align: center;
   }
   
 .banner {
@@ -78,9 +88,34 @@
   }
 #textbody {
     text-align: center;
-    font-size: 9px;
-    position: absolute;
+    font-size: 30px;
     color: rgb(0, 0, 0);
-    top: 25%;
-    padding: 25px;
+    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    
+}
+
+#nextbody {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-family: 'Lato', sans-serif; 
+  
+}
+.pic {
+  padding-left: .5em;
+  position:relative;
+  background-color: #4a4a61;
+  border: grey 1px solid;
+  /* curb */
+  border-radius: 15px;
+  width: auto;
+  box-shadow: 5px 5px 5px rgb(191, 225,252);
+  width: 80%;
+  padding: 1px 0;
+  margin: 0 auto;
+  /* img center */
+  text-align: center;
+  
 }
