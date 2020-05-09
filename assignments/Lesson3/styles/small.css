@@ -1,9 +1,11 @@
 .content{
     max-width: 960px;
     margin: 0 auto;
-    font-family: Papyrus,fantasy;
+    font-family: 'Fjalla One', sans-serif;
     background-color:rgb(170, 213, 248);
-  }
+}
+
+
   h1, h2, h3, h4, h5, h6 {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -59,6 +61,7 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
   }
 
   footer{
@@ -111,11 +114,40 @@
   /* curb */
   border-radius: 15px;
   width: auto;
-  box-shadow: 5px 5px 5px rgb(191, 225,252);
+  box-shadow: 7px 7px 7px rgb(191, 225,252);
   width: 80%;
   padding: 1px 0;
   margin: 0 auto;
   /* img center */
   text-align: center;
   
+}
+.bigbox {
+  text-align: center;
+  position:relative;
+  padding: 20px;
+}
+#lato {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-family: 'Lato', sans-serif; 
+  padding: 20px;
+
+}
+
+#nuno {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-family: 'Nunito', sans-serif;
+  padding: 10px;
+}
+#Fjalla{
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  font-family: 'Fjalla One', sans-serif;
+  padding: 10px;
+
 }
