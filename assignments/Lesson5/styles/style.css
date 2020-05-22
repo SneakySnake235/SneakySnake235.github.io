@@ -15,7 +15,7 @@
     line-height: 1em;
   }
 
-  p{
+  p {
     padding: 10px;
     font-size: 23px;
     line-height: 1.3em;
@@ -191,6 +191,41 @@
     display: block;
     background-color: #D6DAD9;
   }
+
+  .hero-ph{
+    margin : 10px ; 
+    background-color: #ff00ea;
+    border: 1px solid rgb(255, 238, 0);
+    height: 400px;
+    text-align: center;
+
+  }
+
+  .hero-ph img{
+    width: 100%;
+    height: 400px;
+  }
+
+  .herodiv{
+  margin: 10px;
+  position: relative;
+  border: 1px dashed cyan;
+  height:400px;
+  text-align: center;
+
+  }
+
+.weathersummary {
+    position: absolute;
+    top: 50px;
+    left:50px;
+    background-image: radial-gradient(#00ff55,black);
+    background: radial-gradient(#00ff55);
+    border: 1px #ff0000;
+    padding: .5rem;
+    box-shadow: 5px 5px 5px #002fff;
+    text-align: center;
+}
 
 @media screen and (min-width: 520px){
     ul{
