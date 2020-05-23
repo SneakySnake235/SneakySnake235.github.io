@@ -8,6 +8,7 @@
   h1, h2, h3, h4, h5, h6 {
     color: rgb(0, 0, 0);
     text-align: center;
+    display: block;
   
   font-family: 'Nunito', sans-serif;
     font-size: 2em;
@@ -165,7 +166,7 @@
   nav ul{
     margin: 0 auto;
     padding: 15px;
-    height: 25px;
+    
     border-radius: 15px;
     background-color: #D6DAD9;
     font-family: 'Nunito', sans-serif;
@@ -183,7 +184,9 @@
   li{
     padding: 15px;
     display: none;
+    
   }
+
   li:first-child{
     display: block;
   }
