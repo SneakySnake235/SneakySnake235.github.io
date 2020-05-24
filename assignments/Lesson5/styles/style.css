@@ -8,6 +8,7 @@
   h1, h2, h3, h4, h5, h6 {
     color: rgb(0, 0, 0);
     text-align: center;
+    margin: auto;
   
   font-family: 'Nunito', sans-serif;
     font-size: 2em;
@@ -15,13 +16,16 @@
     line-height: 1em;
   }
 
-  p {
-    padding: 10px;
+  /* p {
+    padding: 5opx;
     font-size: 23px;
     line-height: 1.3em;
     text-align: center;
     color: rgb(0, 0, 0);
+    margin:4px;
+    font-family: 'Nunito', sans-serif;
   }
+  */
 
    .leftcol, .rightcol{
     max-width:48%;
@@ -165,7 +169,7 @@
   nav ul{
     margin: 0 auto;
     padding: 15px;
-    height: 25px;
+    
     border-radius: 15px;
     background-color: #D6DAD9;
     font-family: 'Nunito', sans-serif;
@@ -193,14 +197,14 @@
   }
 
   .hero-ph{
-    margin : 10px ; 
+    margin : 15px ; 
     background-color: #ff00ea;
-    border: 1px solid rgb(255, 238, 0);
+    border: 10px solid radial-gradient(#4a4a61,#b9b9b9);
     height: 400px;
     text-align: center;
 
-  }
 
+  }
   .hero-ph img{
     width: 100%;
     height: 400px;
@@ -209,7 +213,7 @@
   .herodiv{
   margin: 10px;
   position: relative;
-  border: 1px dashed cyan;
+  border: 10px  cyan;
   height:400px;
   text-align: center;
 
@@ -219,13 +223,57 @@
     position: absolute;
     top: 50px;
     left:50px;
-    background-image: radial-gradient(#00ff55,black);
-    background: radial-gradient(#00ff55);
+    background-image: radial-gradient(#4a4a61,#b9b9b9);
+    background: radial-gradient(#4a4a61);
     border: 1px #ff0000;
-    padding: .5rem;
-    box-shadow: 5px 5px 5px #002fff;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #0a0a0a;
     text-align: center;
 }
+
+.fivedayforecast {
+  display: flexbox;
+  justify-content: center;
+  font-family: 'Source Sans Pro', 'sans-serif';
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  position: static;
+  
+}
+
+.about {
+  padding: 25px;
+  border: 1px solid black;
+  margin: 20px;
+  font-family: 'Source Sans Pro', 'sans-serif';
+  background: #D6DAD9;
+  color: white;
+}
+
+table, th, td {
+    border: 1px solid white;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    padding: 10px;
+    background: #464646;
+    color: white;
+    margin: 52px;
+    display: flexbox;
+    text-align: center;
+    position: relative;
+    
+}
+.about p{
+  padding: 5opx;
+    font-size: 23px;
+    line-height: 1.3em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin:4px;
+    font-family: 'Nunito', sans-serif;
+    display: inline;
+}
+
 
 @media screen and (min-width: 520px){
     ul{
