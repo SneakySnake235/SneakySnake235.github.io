@@ -16,17 +16,6 @@
     line-height: 1em;
   }
 
-  /* p {
-    padding: 5opx;
-    font-size: 23px;
-    line-height: 1.3em;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin:4px;
-    font-family: 'Nunito', sans-serif;
-  }
-  */
-
    .leftcol, .rightcol{
     max-width:48%;
     flex: 1 0 15em;
@@ -232,13 +221,11 @@
 }
 
 .fivedayforecast {
-  display: flexbox;
-  justify-content: center;
   font-family: 'Source Sans Pro', 'sans-serif';
-  margin: auto;
-  padding: auto;
+  margin: 0 auto;
+  width: 600px;
   text-align: center;
-  position: static;
+  
   
 }
 
@@ -264,7 +251,7 @@ table, th, td {
     
 }
 .about p{
-  padding: 5opx;
+  padding: 50px;
     font-size: 23px;
     line-height: 1.3em;
     text-align: center;
@@ -273,6 +260,52 @@ table, th, td {
     font-family: 'Nunito', sans-serif;
     display: inline;
 }
+
+p {
+  padding: 5opx;
+  font-size: 23px;
+  line-height: 1.3em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin:4px;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer p {
+color: white;
+
+}
+footer a {
+  color: white;
+  
+}
+ footer a:visited {
+  color: #ffffff;
+}
+   
+
+  a:visited {
+    color: #505050;
+  }
+  a:link {
+    color: #000000;
+  }
+  a:hover, a:active {
+    background-color: #b3b3ff;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  #time {
+    font-size: 23px;
+    line-height: 1.3em;
+    font-family: 'Nunito', sans-serif;
+    color: hotpink;
+  }
+
 
 
 @media screen and (min-width: 520px){
