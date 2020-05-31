@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Page</title>
+    <link rel="stylesheet" href="/assignments/Lesson6/styles/normalize.css">
+    <link rel="stylesheet" href="/assignments/Lesson6/styles/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <!-- ICON -->
+    <link rel="shortcut icon" href="/assignments/Lesson6/images/favicon.ico">
+
+</head>
+<body>
+    <header>
+            <div class = "content">
+                    <div class="logo"><img src="/assignments/Lesson6/images/Android-Weathe-App.png" alt="Applogo"> </div>
+                    <h1>Zip-Forecast</h1>
+                    
+             </div>
+             <nav>
+                <ul class = "navigation">
+                    <li><a class = "dropdown" href = "#">&#9776; Menu</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/assignments/Lesson6/Preston6.html">Preston</a></li>
+                    <li><a href="">Soda Springs</a></li>
+                    <li><a href="">Fish Haven</a></li>
+                    <li><a href="">Storm Center</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+          </nav>
+    </header>
+         <h2>Preston Idaho</h2>
+         <main>
+              <!-- Pancakes! :) -->
+        <section id="pancake" class="hidden">
+            <p>
+                Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+            </p>
+        </section>
+                <div class ="herodiv">
+                        <div class = "hero-ph">
+
+                            <img src="/assignments/Lesson6/images/wdd230_image_franklinOriginal.jpeg" media="(min-width:500px) and (max-width: 799px)" alt="HERO"> 
+                </div>
+                    
+                 <section class = "weathersummary">
+                    <h3>Weather Summary</h3>
+                        <p>Date:  <span id="currentDate"></span></p>
+                        <p>Currently: Cloudy</p>
+                        <p>High: 66&deg;F</p>
+                        <p>Wind Chill: 60&deg;F</p>
+                        <p>Humidity: 25%</p>
+                        <p>Wind Speed: 5mph</p>
+                    <div>
+                        <p>Windchill:</p> <span id="windChill"></span>
+                    </div>
+                </section>
+                
+                
+            </div>
+            <h3 class="fivedayforecast">HIGH TEMPERATURE FORECAST</h3>
+            <section class="fivedayforecast">
+                <table>
+                    <tr>
+                        <th>Day</th>
+                        <th id="day1">Day 1</th>
+                        <th id="day2">Day 2</th>
+                        <th id="day3">Day 3</th>
+                        <th id="day4">Day 4</th>
+                        <th id="day5">Day 5</th>
+                    </tr>
+                    <tr>
+                        <td>Forecast</td>
+                        <td id="temp1">60&deg;</td>
+                        <td id="temp2">68&deg;</td>
+                        <td id="temp3">56&deg;</td>
+                        <td id="temp4">52&deg;</td>
+                        <td id="temp5">44&deg;</td>
+                    </tr>
+                </table>
+            </section>
+            <section class="about">
+                <h2>ABOUT PRESTON</h2>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ducimus maiores alias at recusandae excepturi sint, ipsa unde maxime odio sapiente quisquam. Amet, dicta modi quas voluptatem natus enim incidunt. <a href="https://en.wikipedia.org/wiki/Preston,_Idaho"
+                        class="wikipedia">Wikipedia Page</a></p>
+                        <p> 
+
+                        </p>
+                <img src="/assignments/Lesson6/images/Casper.jpg" alt="Rural Image" class="rural">
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628277333!2d-111.91534437001668!3d42.09980531171999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571511817213!5m2!1sen!2sus"
+                width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </section>
+            
+         </main>
+   
+         <footer>
+            <p> &star; &copy; 2020  &star; Jacob Pickrell &star; Idaho &star; <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a></p>
+            <P>Date:  <span id="Modified"> </span> </P>
+            <span id="time"></span>
+        </footer>
+        <script src="/assignments/Lesson6/scripts/currentdate.js"></script>
+        <script src="/assignments/Lesson6/scripts/magic.js"></script>
+        <script src="/assignments/Lesson6/scripts/main.js"></script>
+
+
+</body>
+</html>
