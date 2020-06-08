@@ -186,7 +186,10 @@ body{
 .gallery {
   grid-template-columns: 1fr;
   grid-gap: 15px;
+  display: grid;
+  
 }
+.gallery:hover {box-shadow: 0 0 50px #333;}
 
 .gallery div {
   margin: 15px 0;
@@ -214,14 +217,14 @@ figcaption{
 
 
  @media screen and (min-width: 800px){
-  .Gallery{
+  .gallery{
       display: grid;
       grid-template-columns: 1fr 1fr; 
   } 
-  .Gallery div{
+  .gallery div{
     margin: 0;
   }  
-  .Gallery img{
+  .gallery img{
     display: block;
   }
   h3{
@@ -232,12 +235,12 @@ figcaption{
   }
 }
 @media screen and (min-width: 1000px){
-  .Gallery{
+  .gallery{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr; 
       margin: 15px;
   }  
-  .Gallery img{
+  .gallery img{
     display: block;
   }
   figcaption{
@@ -259,7 +262,7 @@ figcaption{
       display: block; 
   }
   
-  .Gallery img:hover{
+  .gallery img:hover{
       box-shadow: 0 0 20px black;
   }
 }
@@ -303,10 +306,6 @@ figcaption{
   }
 }
 
-#gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-}
 
 #gallery section{
   border: 1px solid black;
@@ -314,10 +313,6 @@ figcaption{
 
 /*=============================================================================================*/
 
-#gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
 @media (max-width: 1000px) {
   iframe, .fivedayforecast{
