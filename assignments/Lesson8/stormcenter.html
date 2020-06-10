@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Page</title>
+    <link rel="stylesheet" href="/assignments/Lesson8/styles/normalize.css">
+    <link rel="stylesheet" href="/assignments/Lesson8/styles/style.css">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <!-- ICON -->
+    <link rel="shortcut icon" href="/assignments/Lesson6/images/favicon.ico">
+
+</head>
+<body>
+    <header>
+            <div class = "content">
+                    <div class="logo"><img src="/assignments/Lesson6/images/Android-Weathe-App.png" alt="Applogo"> </div>
+                    <h1>Zip-Forecast</h1>
+                    
+             </div>
+             <nav>
+                <ul class = "navigation">
+                    <li><a class = "dropdown" href = "#">&#9776; Menu</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/assignments/Lesson6/Preston6.html">Preston</a></li>
+                    <li><a href="">Soda Springs</a></li>
+                    <li><a href="">Fish Haven</a></li>
+                    <li><a href="">Storm Center</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+          </nav>
+    </header>
+         <h2>Preston Idaho</h2>
+         <main>
+            <form action="thanks.html" method="GET">
+                <h2>
+                    Personal Information:
+                </h2>
+    
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" pattern="[A-Za-z]{5,}" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="user@email.com">
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div>
+                    <label for="zipCode">Zip Code:</label>
+                    <input type="number" id="zipCode" name="zipCode" required>
+                </div>
+    
+    <h2>Storm Information:</h2>
+    
+                <div>
+                    <label for="stormDate">Storm Date:</label>
+                    <input type="date" id="stormDate" name="stormDate">
+                </div>
+                <div>
+                    <label for="stormType">Storm Type</label>
+                    <input list="stormTypes">
+                    <datalist id="stormTypes">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                </div>
+                <div>
+                    <label for="stormSeverity">Storm Severity:</label>
+                    <input type="range" id="rating" name="stormSeverity" value="5" min="1" max="10" class="slider"  step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">5</span>
+                </div>
+    
+                <div>
+    
+                </div>
+                <div>
+                    <label for="stormRegion">Storm Region:</label>
+                    <select name="stormRegion" id="stormRegion">
+                        <option value="Select Region" selected disabled>Select Region</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Sugar City">Sugar City</option>
+                    </select>
+                </div>
+    
+                <div class="flex">
+                    <span>Are you in danger?</span>
+                    <div class="nomargin">
+                        <div>
+                            <input type="radio" value="Yes" name="danger">
+                            <label for="yes">Yes</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="No" name="danger">
+                            <label for="no">No</label>
+                        </div>
+                        <div>
+                            <input type="radio" value="Maybe" name="danger">
+                            <label for="maybe">Maybe</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <label for="comments" class="align-top">Comments:</label>
+                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div>
+                    <input type="submit" value="Submit" class="submitbutton">
+                    <input type="reset" value="Reset" class="resetbutton">
+                </div>
+            </form>
+        </main>
+   
+         <footer>
+            <p> &star; &copy; 2020  &star; Jacob Pickrell &star; Idaho &star; <a href="http://www.byui.edu" target="_blank">BYU-Idaho</a></p>
+            <P>Date:  <span id="Modified"> </span> </P>
+            <span id="time"></span>
+        </footer>
+        <script src="/assignments/Lesson8/scripts/currentdate.js"></script>
+        <script src="/assignments/Lesson8/scripts/magic.js"></script>
+        <script src="/assignments/Lesson8/scripts/main.js"></script>
+
+
+</body>
+</html>
