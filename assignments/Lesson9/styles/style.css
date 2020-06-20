@@ -15,15 +15,6 @@
     padding: 10px;
     line-height: 1em;
   }
-
-   .leftcol, .rightcol{
-    max-width:48%;
-    flex: 1 0 15em;
-    margin: .5em;
-  }
-  
-
-
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -99,46 +90,8 @@ article {
 .banner {
     width: 50%;
   }
-#textbody {
-    text-align: center;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    padding: 30px;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    
-}
 
-#nextbody {
-  text-align: center;
-  font-size: 25px;
-  color: rgb(0, 0, 0);
-  font-family: 'Lato', sans-serif; 
-  
-}
-.pic {
-  padding-left: .5em;
-  position:relative;
-  background-color: #4a4a61;
-  border: grey 1px solid;
-  /* curb */
-  border-radius: 15px;
-  width: auto;
-  box-shadow: 7px 7px 7px rgb(191, 225,252);
-  width: 80%;
-  padding: 1px 0;
-  margin: 0 auto;
-  /* img center */
-  text-align: center;
-  
-}
-.bigbox {
-  text-align: center;
-  position:relative;
-  padding: 20px;
-}
-
-
+/* =================================== */
 #lato {
   text-align: center;
   font-size: 35px;
@@ -162,12 +115,6 @@ article {
   padding: 10px;
 
 }
-.dank p{
-    border: 2px dotted black;
-    padding: 10px;
-    background-color: #d3d3d3;
-    color: black;
-  }
 
  
     
@@ -201,91 +148,14 @@ article {
     display: block;
     background-color: #D6DAD9;
   }
-
-  .hero-ph{
-    margin : 15px ; 
-    background-color: #ff00ea;
-    border: 10px solid radial-gradient(#4a4a61,#b9b9b9);
-    height: 400px;
-    text-align: center;
-
-
-  }
-  .hero-ph img{
-    width: 100%;
-    height: 400px;
-  }
-
-  .herodiv{
-  margin: 10px;
-  position: relative;
-  border: 10px  cyan;
-  height:400px;
-  text-align: center;
-
-  }
-
-.weathersummary {
-    position: absolute;
-    top: 50px;
-    left:50px;
-    background-image: radial-gradient(#4a4a61,#b9b9b9);
-    background: radial-gradient(#4a4a61);
-    border: 1px #ff0000;
-    padding: 10px;
-    box-shadow: 5px 5px 5px #0a0a0a;
-    text-align: center;
-}
-
-.fivedayforecast {
-  font-family: 'Source Sans Pro', 'sans-serif';
-  margin: 0 auto;
-  width: 600px;
-  text-align: center;
-  
-  
-}
-
-.about {
-  padding: 25px;
-  border: 1px solid black;
-  margin: 20px;
-  font-family: 'Source Sans Pro', 'sans-serif';
-  background: #D6DAD9;
-  color: white;
-}
-
-table, th, td {
-    border: 1px solid white;
-    font-family: 'Source Sans Pro', 'sans-serif';
-    padding: 10px;
-    background: #464646;
-    color: white;
-    margin: 52px;
-    display: flexbox;
-    text-align: center;
-    position: relative;
-    
-}
-.about p{
-  padding: 50px;
-    font-size: 23px;
-    line-height: 1.3em;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin:4px;
-    font-family: 'Nunito', sans-serif;
-    display: inline;
-}
-
+/* =================================== */
 p {
   padding: 5px;
   font-size: 23px;
   line-height: 1.3em;
   text-align: center;
   color: rgb(0, 0, 0);
-  margin:10px;
-  border: 5px;
+
   font-family: 'Nunito', sans-serif;
 }
 about p {
@@ -327,9 +197,9 @@ footer a {
     font-family: 'Nunito', sans-serif;
     color: hotpink;
   }
+/* =================================== *//* =================================== *//* =================================== */
 
-
-@media screen and (min-width: 520px){
+@media screen and (min-width: 300px){
     ul{
      flex-direction: row;
     } 
@@ -342,3 +212,64 @@ footer a {
    
    }
   
+
+  @media screen and (min-width: 900px){
+    ul{
+    flex-direction: row;
+   } 
+   li:first-child{
+       display: none;
+   }
+   li{
+       display: block; 
+   }
+  .grid {
+    display: flex;
+  }
+  }
+
+  @media screen and (min-width: 600px){
+    ul{
+    flex-direction: row;
+   } 
+   li:first-child{
+       display: none;
+   }
+  
+section {
+  max-width: auto;
+  margin: .5rem auto;
+	border:1px solid #bbb;
+  background-color: #eee;
+  flex-wrap: wrap;
+  
+  display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px auto;
+}
+.p{
+  display: flex;
+}
+article {
+  display: flex;
+	flex-direction: row;
+}
+
+article:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+   li{
+       display: block; 
+   }
+  .grid {
+    display: flex;
+
+  }
+  }
+
+  
+ 
+
+ 
