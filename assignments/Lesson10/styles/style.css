@@ -301,7 +301,9 @@ footer a {
     font-family: 'Nunito', sans-serif;
     color: hotpink;
   }
-
+  .hero-container {
+    position: relative;
+  }
 /*=====================================================================================*/
 .fivedayforecast {
   font-family: 'Source Sans Pro', 'sans-serif';
@@ -320,7 +322,7 @@ grid-template-columns: 2fr 4fr;
   background-color: rgba(255, 255, 255, 0.726);
   border-radius: 0 15px 15px 15px;
   width: 600px;
-  border-radius: auto;
+  
   padding: 5px;
   padding-top: 0;
   text-align: center;
