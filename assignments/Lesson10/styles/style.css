@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap');
+
 .content{
     max-width: 100%;
     margin: 1em;
@@ -185,6 +187,23 @@
     background-color: #D6DAD9;
   }
 
+  #hero-img {
+    width: 91%;
+    display: block;
+    margin: 0 auto;
+    border: solid #ffffff 10px;
+    text-align: center;
+  }
+    .city {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      font-size: 1em;
+      background-color: rgba(18, 77, 0, 0.692);
+      color: rgb(255, 255, 255);
+  }
+
   .hero-ph{
     margin : 15px ; 
     background-color: #ff00ea;
@@ -214,7 +233,7 @@
     left:50px;
     background-image: radial-gradient(#4a4a61,#b9b9b9);
     background: radial-gradient(#4a4a61);
-    border: 1px #ff0000;
+    border: 10px #ff0000;
     padding: 10px;
     box-shadow: 5px 5px 5px #0a0a0a;
     text-align: center;
@@ -230,16 +249,22 @@
 }
 
 table, th, td {
-    border: 1px solid white;
+   
     font-family: 'Source Sans Pro', 'sans-serif';
     padding: 10px;
     background: #464646;
     color: white;
     margin: 52px;
-    display: flexbox;
-    text-align: center;
-    position: relative;
     
+    text-align: center;
+    position:relative ;
+    
+    border: 1px solid white;
+    font-family: 'Source Sans Pro', 'sans-serif';
+    padding: 10px;
+    background: #4a4a61;
+    color: 4a4a61;
+    margin: 10px;
 }
 .about p{
   padding: 50px;
@@ -302,7 +327,7 @@ footer a {
     color: hotpink;
   }
   .hero-container {
-    position: relative;
+    position: flex;
   }
 /*=====================================================================================*/
 .fivedayforecast {

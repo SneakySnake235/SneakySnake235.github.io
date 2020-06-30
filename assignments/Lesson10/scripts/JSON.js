@@ -1,14 +1,14 @@
 
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5605242&appid=cd6c7d18e3744a1287ea7e3790d92b43" ;
 
-fetch(apiWeatherURL)
+fetch(apiURL)
     .then(
         (response) => response.json()
     )
     .then(
         (currentWeather) => {
-            //debugging console.log
-            // console.log(currentWeather.main.temp);
+            // debugging console.log
+            console.log(currentWeather.main.temp);
 
             let currentTemp = currentWeather.main.temp;
             let tempHigh = currentWeather.main.temp_max;
