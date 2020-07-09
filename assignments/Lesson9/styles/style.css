@@ -19,6 +19,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    width: 100%;
 }
 
 section {
@@ -28,15 +29,20 @@ section {
     text-align: center;
     border-radius: 5%;
     border:1px white;
-    /* max-width: 350px; */
+    width: 80%;
 }  
 .towns-item {
     background-color: #4a4a61;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: center;
   }
+
+  section img{
+    width: 100%;
+  }
+
   .main{
     display: flex;
     flex-direction: row;
@@ -203,7 +209,7 @@ footer a {
 
 
 /* =================================== *//* =================================== *//* =================================== */
-/* 
+
 @media screen and (min-width: 200px){
     ul{
      flex-direction: row;
@@ -214,8 +220,11 @@ footer a {
     li{
         display: block; 
     }
+    section{
+      display: list-item;
+    }
    
-   } */
+   } 
   
    @media screen and (min-width: 600px){
     ul{
@@ -226,12 +235,13 @@ footer a {
    }
   
   section {
-    display: block;
+    display: grid;
   }
   .home {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  
 
   section:nth-child(odd) h2 {
     grid-column: 1/2;
@@ -289,7 +299,10 @@ footer a {
  
 
 
-  @media screen and (min-width: 900px){
+  @media screen and (min-width: 1200px){
+    section{
+      display: block;
+    }
     ul{
     flex-direction: flex;
    } 
@@ -299,7 +312,7 @@ footer a {
    li{
        display: block; 
    }
-  .grid {
+  .towns {
     display: flex;
   }
 
