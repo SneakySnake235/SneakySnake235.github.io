@@ -231,7 +231,7 @@
     position: absolute;
     top: 50px;
     left:50px;
-    background-image: radial-gradient(#4a4a61,#b9b9b9);
+    background-image: radial-gradient(#4a4a61,#ff0000);
     background: radial-gradient(#4a4a61);
     border: 10px #ff0000;
     padding: 10px;
@@ -256,15 +256,13 @@ table, th, td {
     color: white;
     margin: 52px;
     
+    
     text-align: center;
     position:relative ;
     
     border: 1px solid white;
-    font-family: 'Source Sans Pro', 'sans-serif';
-    padding: 10px;
-    background: #4a4a61;
-    color: 4a4a61;
-    margin: 10px;
+    
+   
 }
 .about p{
   padding: 50px;
@@ -335,6 +333,9 @@ footer a {
   margin: 0 auto;
   width: 600px;
   text-align: center;
+  display: grid;
+
+  
 }
 .forecast,
 .forecast h3 {
