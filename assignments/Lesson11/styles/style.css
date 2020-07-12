@@ -229,9 +229,7 @@
   }
 
 .weathersummary {
-    position: absolute;
-    top: 50px;
-    left:50px;
+    position: relative;
     background-image: radial-gradient(#4a4a61,#ff0000);
     background: radial-gradient(#4a4a61);
     border: 10px #ff0000;
@@ -264,7 +262,7 @@ table, th, td {
     background: #464646;
     color: white;
     margin: 52px;
-    
+    position: center;
     
     text-align: center;
     position:relative ;
@@ -294,6 +292,7 @@ p {
   border: 5px;
   font-family: 'Nunito', sans-serif;
 }
+
 about p {
 display:flexbox;
 
@@ -364,7 +363,7 @@ footer a {
   display: grid;
 grid-template-columns: 2fr 4fr;
   margin: 18px auto;
-  background-color: rgba(255, 255, 255, 0.726);
+  background-color: #ffffffb9;
   border-radius: 0 15px 15px 15px;
   width: 600px;
   
@@ -392,6 +391,34 @@ padding: 3px;
 max-width: 450px;
 max-height: 30px;
 border-radius: 0 15px 15px 15px;
+}
+
+.tf2{
+  padding: 25px;
+  border: 2px solid black;
+  margin: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  background: #04ffc0;
+  color: white;
+
+      align-items: center;
+      padding: 5px;
+      font-size: 1em;
+      background-color: #ffffffb9;
+      color: rgb(255, 255, 255);
+
+
+}
+.works{
+  position: relative;
+    top: 50px;
+    left:50px;
+    background-image: radial-gradient(#4a4a61,#b9b9b9);
+    background: radial-gradient(#4a4a61);
+    border: 1px #ff0000;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #0a0a0a;
+    text-align: center;
 }
 
 @media screen and (min-width: 520px){
