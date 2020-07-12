@@ -200,9 +200,10 @@
       align-items: center;
       padding: 5px;
       font-size: 1em;
-      background-color: rgba(18, 77, 0, 0.692);
+      background-color: #4a4a61;
       color: rgb(255, 255, 255);
   }
+  /* Chl block */
 
   .hero-ph{
     margin : 15px ; 
@@ -241,11 +242,19 @@
 
 .about {
   padding: 25px;
-  border: 1px solid black;
+  border: 2px solid black;
   margin: 20px;
-  font-family: 'Source Sans Pro', 'sans-serif';
-  background: #D6DAD9;
+  font-family: 'Fjalla One', sans-serif;
+  background: #04ffc0;
   color: white;
+
+  display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      font-size: 1em;
+      background-color: #4a4a61;
+      color: rgb(255, 255, 255);
 }
 
 table, th, td {
@@ -327,6 +336,16 @@ footer a {
   .hero-container {
     position: flex;
   }
+
+
+  .aboutcontent {
+    display: flex;
+    flex-direction: row;
+    /* Make column on small*/
+    padding: 50px;
+    background-color: #d6dad9;
+    font-size: 18px;
+}
 /*=====================================================================================*/
 .fivedayforecast {
   font-family: 'Source Sans Pro', 'sans-serif';
